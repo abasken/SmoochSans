@@ -1,0 +1,427 @@
+
+
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+.backgroundcolor{
+    background-color: #f3abc0;
+
+}
+
+
+body{
+
+    font-family: "Smooch Sans", sans-serif;
+    font-size: 100px;
+    color: white;
+    
+}
+
+h1{
+
+    font-size: 50px;
+
+
+}
+
+.FontTitle{
+    text-align: center;
+
+}
+
+.whiteline{
+
+    height: 4px;
+    background-color: white;
+    border: none;
+}
+
+.Design{
+
+    font-size: 200px;
+    font-family: "Smooch Sans", sans-serif;
+    background-color: white;
+    color: #f3abc0;
+    font-weight: 600;
+     overflow: hidden;
+    white-space: nowrap;
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+
+}
+
+.P1{
+
+    padding-top: 50px;
+    font-size: 25px;
+    text-align: justify left;
+    margin: auto;
+}
+
+.P2{
+
+    padding-top: 50px;
+    font-size: 25px;
+    text-align: justify left;
+    margin: auto;
+}
+
+.P3{
+    
+    padding-top: 50px;
+    font-size: 25px;
+    text-align: justify left;
+    margin: auto;}
+
+
+.BottomNav{
+font-size: 30px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+background-color: white;
+
+}
+
+.NEXT{
+
+    text-align: right;
+    padding-right: 20px;
+    font-weight: 700;
+    
+
+}
+
+
+
+.ExampleUses{
+
+text-align: center;
+font-weight: 200;
+font-size: 50px;
+
+}
+
+a{
+
+    color: #f3abc0;
+    text-decoration: none;
+    
+}
+
+.BACK{
+
+    text-align: left;
+    padding-left: 20px;
+    font-weight: 700;
+    
+    
+}
+
+
+.FontStyles{
+
+text-align: center;
+font-weight: 200;
+font-size: 50px;
+
+}
+
+.Experiments{
+
+text-align: center;
+font-weight: 200;
+font-size: 50px;
+
+}
+
+.Fontlist{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.alphabet{
+
+    text-align: center;
+    font-size: 45px;
+}
+
+.numbers{
+
+    text-align: center;
+    font-size: 45px;
+}
+
+.ExtraSigns{
+
+    text-align: center;
+    font-size: 45px;
+}
+
+
+.ExampleUsesContainer{
+
+    display: grid;
+    grid-template-rows: 1/3;
+}
+
+.ExampleOne{
+
+    padding-top: 40px;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+
+
+}
+
+
+.TopOne{
+    color: white;
+    padding-top: 50px;
+    font-style: italic;
+    font-weight: 100;
+
+}
+
+.BottomOne{
+
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 60px;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+
+
+.PinkBox{
+
+background-color: #f3abc0;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+
+
+.BottomTwo{
+
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
+
+.ExampleTwo{
+
+    background-color: white;
+    color: #f3abc0;
+    font-size: 180px;
+    font-weight: 700;
+}
+
+.TextTwo{
+
+    padding-top: 35px;
+    text-align: center;
+    line-height: .8;
+    padding-bottom: 20px;
+}
+
+.ExampleThree{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 30px;
+    background-color: white;
+    color: #f3abc0;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 40px;
+}
+
+.Example3One{
+
+    padding-top: 80px;
+    padding-bottom: 20px;
+
+    
+}
+
+.Example3Three{
+
+    padding-top: 20px;
+    padding-bottom: 80px;
+
+}
+
+
+.Scrolling{
+
+    display: inline-block;
+    animation: scrollText 20s linear infinite;
+}
+
+@keyframes scrollText{
+
+    0%{ transform: translateX(100%);}
+    100%{transform: translateX(-100%);}
+}
+
+
+.SmilingOContainer{
+
+display: flex;
+position: relative;
+background-color: white;
+color: #f3abc0;
+margin: -20px;
+margin-bottom: 50px;
+}
+
+.BigO{
+
+position: relative;
+font-size: 300px;
+font-weight: 100;
+margin: 0 auto;
+
+}
+
+.SmallO{
+
+position: relative;
+top: 55px;
+right: 300px;
+    
+}
+
+.SmallO2{
+
+position: relative;
+right: 305px;
+top: 55px;
+}
+
+.Mouth{
+
+position: relative;
+top: 105px;
+right: 370px;
+
+
+}
+
+.SmilingOContainer2{
+
+display: flex;
+position: relative;
+margin: -20px;
+margin-bottom: 50px;
+}
+
+.BigO2{
+
+position: relative;
+font-size: 300px;
+font-weight: 100;
+margin: 0 auto;
+
+}
+
+.SmallO3{
+
+position: relative;
+top: 55px;
+right: 300px;
+    
+}
+
+.SmallO4{
+
+position: relative;
+right: 305px;
+top: 55px;
+}
+
+.Mouth2{
+
+position: relative;
+top: 105px;
+right: 370px;
+
+
+}
+
+
+.heart{
+
+background-color: white;
+color: #f3abc0;
+position: relative;
+margin-bottom: 90px;
+padding-bottom: 100px;
+
+}
+
+.P12{
+
+position: relative;
+transform: rotate(-40deg);
+right: -150px;
+font-size: 200px;
+
+}
+
+
+.P22{
+
+position: relative;
+transform: scaleX(-1) rotate(-40deg);
+font-size: 200px;
+top: -240px;
+right: 175px;
+
+}
+
+.scroll-container2 {
+
+    height: 200px;
+    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 80px;
+}
+
+.scroll-text2 {
+  font-size: 80px;
+  color: #f3abc0;
+  white-space: nowrap;
+  animation: scroll-up 20s infinite linear;
+}
+
+@keyframes scroll-up {
+  0% { transform: translateY(100vh) rotate(90deg); } 
+  100% { transform: translateY(-100%) rotate(90deg); } 
+}
